@@ -1,0 +1,101 @@
+# =================================================================
+# General
+# =================================================================
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local config
+gradle.properties
+local.properties
+*.jks
+*.keystore
+
+# =================================================================
+# Gradle
+# =================================================================
+.gradle/
+build/
+!buildSrc/
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle task cache
+.gradletasknamecache
+gradle-app.setting
+
+# Gradle wrapper scripts (must be tracked)
+!/gradlew
+!/gradlew.bat
+
+# Local build cache
+.build/
+.gradle-cache/
+
+# =================================================================
+# Kotlin Multiplatform
+# =================================================================
+.kotlin/
+*.klib
+*.kjsm
+*.kt.js
+*.kt.js.map
+*.kotlin_metadata
+
+# =================================================================
+# Android
+# =================================================================
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build outputs
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# =================================================================
+# IntelliJ / JetBrains
+# =================================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+gen/
+
+# =================================================================
+# Xcode (iOS)
+# =================================================================
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM/
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# =================================================================
+# VS Code
+# =================================================================
+.vscode/
+
+# =================================================================
+# Reports & Docs
+# =================================================================
+reports/
+dokka/
+coverage/
+
+# =================================================================
+# CI/CD
+# =================================================================
+.github/workflows/*.log
