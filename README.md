@@ -79,11 +79,13 @@ OtpTextField(
     onOtpValueChange = { otpValue = it },
     otpLength = 6,
     shape = OtpShape.RoundedBox,
-    verifyOtp = { enteredOtp -> enteredOtp == "123456" //Returns Boolean to verify},
+    verifyOtp = { enteredOtp -> enteredOtp == "123456" //Returns Boolean to verify 
+                },
     onSuccess = { /* ✅ OTP verified Perform Navigation Logic*/ },
     onError = { /* ❌ Wrong OTP Call Resent Logic */ }
 )
 ````
+<img src="https://github.com/atharvyadav22/OTPVerificationKMP/blob/main/readme_assets/demo_usage.gif" width="300" alt="Demo usage">
 
 👉 **See full demo with multiple styles here**:
 [LibraryPreview.kt](https://github.com/atharvyadav22/otpVerificationKmp/blob/main/sampleapplication/src/main/java/com/aystudio/sampleapplication/ui/LibraryPreview.kt)
