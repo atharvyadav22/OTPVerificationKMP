@@ -86,7 +86,8 @@ OtpTextField(
     onError = { /* ❌ Wrong OTP Call Resent Logic */ }
 )
 ````
-![Demo usage](https://raw.githubusercontent.com/atharvyadav22/otpVerificationKmp/main/readme_assets/demo_usage.gif)
+<img src="https://raw.githubusercontent.com/atharvyadav22/otpVerificationKmp/main/readme_assets/demo_usage.gif" width="300" alt="Demo usage">
+
 
 👉 **See full demo with multiple styles here**:
 [LibraryPreview.kt](https://github.com/atharvyadav22/otpVerificationKmp/blob/main/sampleapplication/src/main/java/com/aystudio/sampleapplication/ui/LibraryPreview.kt)
